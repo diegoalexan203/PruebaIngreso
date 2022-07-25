@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="UserTableViewCell" customModule="Ceiba_Prueba_Diego8a" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDy-NH-PV6">
+                        <rect key="frame" x="20" y="20" width="44.5" height="21"/>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" red="0.22745099660000001" green="0.37647059560000001" blue="0.2117646933" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone.fill.arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="eMJ-g3-F39">
+                        <rect key="frame" x="20" y="44.5" width="33" height="20.5"/>
+                        <color key="tintColor" red="0.22745099660000001" green="0.37647059560000001" blue="0.2117646933" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXl-Z9-QvJ" userLabel="PhoneLabel">
+                        <rect key="frame" x="53" y="45" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0dc-qA-kYf">
+                        <rect key="frame" x="20" y="73.5" width="33" height="17.5"/>
+                        <color key="tintColor" red="0.22745099660000001" green="0.37647059560000001" blue="0.2117646933" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYu-PG-k6Y" userLabel="EmailLabel">
+                        <rect key="frame" x="53" y="72.5" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VER PUBLICACIONES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPS-R4-vy6">
+                        <rect key="frame" x="256.5" y="117" width="137.5" height="16"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" red="0.22745099660000001" green="0.37647059560000001" blue="0.2117646933" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jDy-NH-PV6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="5Jm-b8-SKC"/>
+                    <constraint firstItem="eMJ-g3-F39" firstAttribute="top" secondItem="jDy-NH-PV6" secondAttribute="bottom" multiplier="1.1" id="5bN-H1-atB"/>
+                    <constraint firstItem="dXl-Z9-QvJ" firstAttribute="top" secondItem="jDy-NH-PV6" secondAttribute="bottom" multiplier="1.1" id="9Tv-rn-IJW"/>
+                    <constraint firstItem="hYu-PG-k6Y" firstAttribute="leading" secondItem="0dc-qA-kYf" secondAttribute="trailing" id="Cre-Oa-hK0"/>
+                    <constraint firstItem="eMJ-g3-F39" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.08" id="Cvg-5Y-xHk"/>
+                    <constraint firstAttribute="bottom" secondItem="fPS-R4-vy6" secondAttribute="bottom" constant="20" id="HCX-D2-mel"/>
+                    <constraint firstItem="dXl-Z9-QvJ" firstAttribute="leading" secondItem="eMJ-g3-F39" secondAttribute="trailing" id="JdA-3Z-95j"/>
+                    <constraint firstItem="eMJ-g3-F39" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.13" id="Jmb-dY-Xqx"/>
+                    <constraint firstItem="0dc-qA-kYf" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.08" id="LUw-Bx-u5t"/>
+                    <constraint firstItem="0dc-qA-kYf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="MKU-g0-VF7"/>
+                    <constraint firstItem="jDy-NH-PV6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="NNH-JJ-YAL"/>
+                    <constraint firstItem="0dc-qA-kYf" firstAttribute="top" secondItem="dXl-Z9-QvJ" secondAttribute="bottom" multiplier="1.1" id="S6e-D0-Dsn"/>
+                    <constraint firstItem="hYu-PG-k6Y" firstAttribute="top" secondItem="dXl-Z9-QvJ" secondAttribute="bottom" multiplier="1.1" id="dzM-KP-TN3"/>
+                    <constraint firstAttribute="trailing" secondItem="fPS-R4-vy6" secondAttribute="trailing" constant="20" id="oNu-Kv-KkE"/>
+                    <constraint firstItem="eMJ-g3-F39" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="pjd-7c-DRQ"/>
+                    <constraint firstItem="0dc-qA-kYf" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.13" id="tYl-HF-utk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="emailLabel" destination="hYu-PG-k6Y" id="avQ-lR-vxv"/>
+                <outlet property="nameUserLabel" destination="jDy-NH-PV6" id="vJo-zD-YjJ"/>
+                <outlet property="phoneLabel" destination="dXl-Z9-QvJ" id="tjn-i5-xyH"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="126"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="mail.fill" catalog="system" width="128" height="93"/>
+        <image name="phone.fill.arrow.right" catalog="system" width="115" height="128"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
